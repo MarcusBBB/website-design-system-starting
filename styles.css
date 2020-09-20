@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FFF;
+  }
+
+/* header */
+header {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.heading {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    height: 40px;
+    color: whitesmoke;
+}
+
+/* main */
+main {
+    position: relative;
+    top: 50px;
+    margin: 10px auto;
+    width: 95%;
+}
+
+section {
+    border: 2px dashed slategrey;
+    margin: 75px auto;
+}
+
+h2 {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* color */
+#color {
+    background-image: url(resources/images/color_wheel_4_background.svg);
+    background-position: center;
+    background-size: 200%;
+    /*opacity: 0.5;*/
+}
+
+.color-panel {
+    width: 22%;
+    height: 200px;
+    border: 1px ridge black;
+    margin: 2.5%;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+}
+
+.LightSeaGreen {
+    background-color: LightSeaGreen;
+    opacity: 1;
+}
+
+.IndianRed {
+    background-color: IndianRed;
+}
+
+.HotPink {
+    background-color: HotPink;
+}
+
+.NavajoWhite {
+    background-color: NavajoWhite;
+}
+
+.DarkOrange {
+    background-color: DarkOrange;
+}
+
+/* fonts */
+#fonts {
+    background-image: url("resources/images/font-voorbeelden.jpg");
+    background-position: center;
+    background-size: 120%;
+}
+
+.fonts-panel {
+    background-color: white;
+    display: inline-block;
+    width: 40%;
+    font-size: 35px;
+    height: 300px;
+    margin: 30px;
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+.Dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.GrenzeGotisch {
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.MuseoModerno {
+    font-family: 'MuseoModerno', cursive;
+}
+
+.bold700 {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold900 {
+    font-weight: 900;
+}
+
+/* Text Styles */
+#text-styles {
+    background-color: rgb(154,205,50);
+}
+.textStylePanel {
+    background-color: rgb(171, 197, 119);
+    border: 3px solid grey;
+    margin: 20px auto;
+}
+
+.big1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+}
+
+.space {
+    word-spacing: 0.9em;
+    letter-spacing: 0.7em;
+    font-weight: 200;
+}
+
+.small{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 6px;
+    font-weight: 200;
+}
